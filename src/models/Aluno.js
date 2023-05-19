@@ -49,7 +49,7 @@ export default class Aluno extends Model {
           },
         },
 
-        Weight: {
+        weight: {
           type: Sequelize.FLOAT,
           defaultValue: "",
           validate: {
